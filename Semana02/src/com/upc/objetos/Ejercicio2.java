@@ -1,5 +1,7 @@
 package com.upc.objetos;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Ejercicio2 {
@@ -17,7 +19,13 @@ public class Ejercicio2 {
 
         System.out.println("Alumno 1: " + alumno1.obtenerResultado());
         System.out.println("Alumno 2: " + alumno2.obtenerResultado());
-
-
+        //declarando un arreglo de objetos de la clase Alumno
+        List<Alumno> alumnos = new ArrayList<>();
+        alumnos.add(alumno1);
+        alumnos.add(alumno2);
+        System.out.println("****** Reporte  *********");
+        for(Alumno p:alumnos){
+            System.out.println(p.getNombre() + "   " + p.obtenerResultado());
+        }
     }
 }
