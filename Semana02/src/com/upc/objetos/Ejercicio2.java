@@ -28,5 +28,11 @@ public class Ejercicio2 {
            // System.out.println(p.getNombre() + "   " + p.obtenerResultado());
             System.out.println(p.toString());
         }
+        System.out.println("********* Suma notas *********");
+        int suma = 0;
+        for(Alumno p:alumnos){
+            suma+=p.getT1() + p.getT2();
+        }
+        System.out.println("Suma de notas total:" + suma);
     }
 }
