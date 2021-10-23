@@ -58,4 +58,14 @@ public class Alumno {
     public void setT2(int t2) {
         this.t2 = t2;
     }
+
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "codigo='" + codigo + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", t1=" + t1 +
+                ", t2=" + t2 + ", resultado=" + obtenerResultado() +
+                '}';
+    }
 }

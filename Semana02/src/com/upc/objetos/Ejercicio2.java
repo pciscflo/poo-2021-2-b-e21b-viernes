@@ -25,7 +25,8 @@ public class Ejercicio2 {
         alumnos.add(alumno2);
         System.out.println("****** Reporte  *********");
         for(Alumno p:alumnos){
-            System.out.println(p.getNombre() + "   " + p.obtenerResultado());
+           // System.out.println(p.getNombre() + "   " + p.obtenerResultado());
+            System.out.println(p.toString());
         }
     }
 }
