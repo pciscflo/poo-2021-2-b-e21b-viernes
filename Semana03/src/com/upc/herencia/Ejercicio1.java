@@ -13,6 +13,8 @@ public class Ejercicio1 {
        for (Profesor p:universidad.getProfesores()){
            System.out.println(p.getNombre()+ "   "  + p.calcularSueldo());
        }
+        System.out.println("--------------------");
+        System.out.println("Promedio de Sueldos:" + universidad.calcularPromedioSueldos());
 
     }
 }
