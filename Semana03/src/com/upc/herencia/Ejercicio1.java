@@ -7,6 +7,12 @@ public class Ejercicio1 {
         System.out.println("Sueldo Final:" + profesorTP.calcularSueldo());
         ProfesorTC profesorTC = new ProfesorTC("20201344","88888888","Carlos",
                 1200,0.12);
-        System.out.println("Sueldo Fijo:" + profesorTC.calcularSueldo());
+       Universidad universidad = new Universidad();
+       universidad.registrar(profesorTC);
+       universidad.registrar(profesorTP);
+       for (Profesor p:universidad.getProfesores()){
+           System.out.println(p.getNombre()+ "   "  + p.calcularSueldo());
+       }
+
     }
 }
