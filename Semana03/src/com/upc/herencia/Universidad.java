@@ -17,6 +17,7 @@ public class Universidad {
         return (suma/profesores.size());
     }
     public void registrar(Profesor profesor){
+
         this.profesores.add(profesor);
     }
 
