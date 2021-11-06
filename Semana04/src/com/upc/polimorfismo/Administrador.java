@@ -39,4 +39,12 @@ public class Administrador {
         }
         return null;//que significaría no lo encontró
     }
+
+    public List<Participante> getArregloParticipantes() {
+        return arregloParticipantes;
+    }
+
+    public void setArregloParticipantes(List<Participante> arregloParticipantes) {
+        this.arregloParticipantes = arregloParticipantes;
+    }
 }
