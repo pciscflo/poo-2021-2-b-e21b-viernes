@@ -87,7 +87,7 @@
 <XPD:OBJ name="OwnedViews[1]" type="UMLNoteView" guid="TiqaHFIZf0erEK4QMbExXgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">244</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">252</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">136</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">326</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">38</XPD:ATTR>
@@ -303,7 +303,7 @@ bono=0;
 <XPD:ATTR name="Top" type="integer">284</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">169</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">30</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">return super.calcualrPuntaje();
+<XPD:ATTR name="Text" type="string">return super.calcularPuntaje();
 </XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedViews[11]" type="UMLClassView" guid="cqyqkNia50aCRaDbqTSjcAAA">
@@ -529,7 +529,7 @@ bono=0;
 </XPD:OBJ>
 <XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="ULVEvQOY3EGZn8rdrgg6nwAA">
-<XPD:ATTR name="Name" type="string">arregloparticipantes&lt;&gt;</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">arregloparticipantes</XPD:ATTR>
 <XPD:REF name="Owner">Kmz1LXN/kEG0IDjEglv0sAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
