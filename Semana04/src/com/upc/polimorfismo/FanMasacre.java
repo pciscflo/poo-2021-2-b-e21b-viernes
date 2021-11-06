@@ -14,7 +14,7 @@ public class FanMasacre extends Participante{
     }
 
     public int calcularPuntaje() {
-        return 0;
+        return (this.getCantidadMensajes()*4 + this.puntajeBarra + this.puntajeEquipo*2);
     }
 
     public String getEquipo() {
