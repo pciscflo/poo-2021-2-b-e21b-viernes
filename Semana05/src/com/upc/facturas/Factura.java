@@ -33,7 +33,7 @@ public class Factura {
         return (calcularSubtotal()*0.18);
     }
 
-    public double CalcularTotalPagar(){
+    public double calcularTotalPagar(){
         return (calcularSubtotal() + calcularIGV());
     }
 

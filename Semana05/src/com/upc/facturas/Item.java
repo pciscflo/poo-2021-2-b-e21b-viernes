@@ -6,7 +6,12 @@ public class Item {
 
     public Item(int cantidad, Producto producto) {
         this.cantidad = cantidad;
-        this.producto = producto;
+        this.producto = producto;//agregación
+    }
+
+    public Item(int cantidad, String codigo, String descripcion, double precio) {
+        this.cantidad = cantidad;
+        this.producto = new Producto(codigo, descripcion, precio);//composición *
     }
 
     public double calcularMontoParcial(){
