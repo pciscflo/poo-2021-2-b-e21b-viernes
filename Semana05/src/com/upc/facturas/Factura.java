@@ -21,7 +21,21 @@ public class Factura {
         this.arregloItems.add(item);
     }
 
-    
+    public double calcularSubtotal(){
+        double suma = 0;
+        for(Item p:this.arregloItems){
+            suma+=p.calcularMontoParcial();
+        }
+        return suma;
+    }
+
+    public double calcularIGV(){
+        return (calcularSubtotal()*0.18);
+    }
+
+    public double CalcularTotalPagar(){
+        return (calcularSubtotal() + calcularIGV());
+    }
 
     public String getNumeroFactura() {
         return numeroFactura;
