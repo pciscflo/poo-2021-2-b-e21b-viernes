@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factoria.navieras</OriginalElement>
+  <nodes>
+    <node x="563.9969041340992" y="-23.6833976833977">factoria.navieras.JefeEnvios</node>
+    <node x="242.38208635464727" y="435.1814671814672">factoria.navieras.Factoria</node>
+    <node x="605.9969041340992" y="284.027027027027">factoria.navieras.EjercicioGrupalMain</node>
+    <node x="209.83135182220536" y="23.297297297297305">factoria.navieras.Envio</node>
+    <node x="314.8429348337884" y="261.527027027027">factoria.navieras.Maritimo</node>
+    <node x="17.050040022600967" y="260.0057915057915">factoria.navieras.Ultramaritimos</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factoria.navieras.Maritimo" target="factoria.navieras.Envio" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="398.3429348337884" y="206.95752895752895" />
+      <point x="239.33135182220536" y="206.95752895752895" />
+      <point x="-59.0" y="72.5" />
+    </edge>
+    <edge source="factoria.navieras.Ultramaritimos" target="factoria.navieras.Envio" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="131.55004002260097" y="206.95752895752895" />
+      <point x="239.33135182220536" y="206.95752895752895" />
+      <point x="-59.0" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8301282051282052" showDependencies="false" x="581.0" y="263.0" />
+  <SelectedNodes>
+    <node>factoria.navieras.JefeEnvios</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
