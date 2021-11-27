@@ -2,11 +2,12 @@ package relaciones;
 
 public class Main {
     public static void main(String[] args) {
-        Tanque tanque1 = new Tanque("Ruso1","Tubo34","Explot1");
-        Tanque tanque2 = new Tanque("Americano","Flash1","Balines");
-        Soldado soldado1 = new Soldado("Pepe", 17);
-        Soldado soldado2 = new Soldado("Juan", 19);
-        Soldado soldado3 = new Soldado("Jorge", 5);
+       // Tanque tanque0 = new Tanque("Ruso1","Tubo34","Explot1");
+        Atacante tanque1 = Factoria.dameInstancia("TAN","Ruso1","Tubo34","Explot1");
+        Atacante tanque2 = Factoria.dameInstancia("TAN","Americano","Flash1","Balines");
+        Atacante soldado1 = Factoria.dameInstancia("SOL","Pepe", "17");
+        Atacante soldado2 = Factoria.dameInstancia("SOL","Juan", "19");
+        Atacante soldado3 = Factoria.dameInstancia("SOL","Jorge", "5");
         Cuartel cuartel = new Cuartel("ARM100","Husares");
         try {
             cuartel.registrar(tanque1);
