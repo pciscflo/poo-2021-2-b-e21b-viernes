@@ -2,7 +2,6 @@ package relaciones;
 
 public class Main {
     public static void main(String[] args) {
-       // Tanque tanque0 = new Tanque("Ruso1","Tubo34","Explot1");
         Atacante tanque1 = Factoria.dameInstancia("TAN","Ruso1","Tubo34","Explot1");
         Atacante tanque2 = Factoria.dameInstancia("TAN","Americano","Flash1","Balines");
         Atacante soldado1 = Factoria.dameInstancia("SOL","Pepe", "17");
