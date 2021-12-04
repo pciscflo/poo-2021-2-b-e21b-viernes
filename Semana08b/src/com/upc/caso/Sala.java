@@ -13,8 +13,8 @@ public class Sala {
         this.pelicula = pelicula;
         this.arregloAsientos = new ArrayList<>();
     }
-    public void registrarAsiento(int fila, String letra, String categoria){
-        Asiento asiento = new Asiento(fila, letra, categoria);
+    public void registrarAsiento(String codigo, int fila, String letra, String categoria){
+        Asiento asiento = new Asiento(codigo,fila, letra, categoria);
         this.arregloAsientos.add(asiento);
     }
 
