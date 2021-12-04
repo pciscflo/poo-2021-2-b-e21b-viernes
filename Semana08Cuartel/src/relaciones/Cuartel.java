@@ -3,7 +3,7 @@ package relaciones;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cuartel {
+public class Cuartel { //MODELO
     private String codigo;
     private String nombre;
     private List<Atacante> arregloAtancantes;
