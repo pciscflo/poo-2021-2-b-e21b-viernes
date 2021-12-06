@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.upc</OriginalElement>
+  <nodes>
+    <node x="125.36197916666667" y="537.0">com.upc.Main</node>
+    <node x="0.0" y="406.0">com.upc.Administracion</node>
+    <node x="73.99999999999999" y="0.0">com.upc.Bus</node>
+    <node x="103.27604166666666" y="229.0">com.upc.Asiento</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.upc.Asiento" target="com.upc.Bus" relationship="TO_ONE">
+      <point x="-49.33333333333336" y="-61.5" />
+      <point x="127.9427083333333" y="208.0" />
+      <point x="79.11197916666667" y="208.0" />
+      <point x="79.11197916666667" y="188.0" />
+      <point x="108.33333333333331" y="188.0" />
+      <point x="-68.66666666666667" y="83.5" />
+    </edge>
+    <edge source="com.upc.Bus" target="com.upc.Asiento" relationship="CREATE">
+      <point x="2.8421709430404007E-14" y="83.5" />
+      <point x="177.0" y="188.0" />
+      <point x="140.24999999999997" y="188.0" />
+      <point x="140.25" y="198.0" />
+      <point x="177.27604166666663" y="198.0" />
+      <point x="-2.8421709430404007E-14" y="-61.5" />
+    </edge>
+    <edge source="com.upc.Main" target="com.upc.Asiento" relationship="DEPENDENCY">
+      <point x="36.75" y="-28.0" />
+      <point x="235.61197916666669" y="516.0" />
+      <point x="249.11197916666669" y="516.0" />
+      <point x="249.11197916666669" y="506.0" />
+      <point x="190.5" y="506.0" />
+      <point x="190.5" y="379.0" />
+      <point x="177.27604166666666" y="379.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.upc.Asiento" target="com.upc.Bus" relationship="DEPENDENCY">
+      <point x="49.33333333333334" y="-61.5" />
+      <point x="226.8359375" y="198.0" />
+      <point x="245.66666666666669" y="198.0" />
+      <point x="68.66666666666669" y="83.5" />
+    </edge>
+    <edge source="com.upc.Administracion" target="com.upc.Bus" relationship="TO_MANY">
+      <point x="-60.0" y="-39.5" />
+      <point x="30.0" y="379.0" />
+      <point x="78.86197916666667" y="379.0" />
+      <point x="79.11197916666667" y="188.0" />
+      <point x="108.33333333333331" y="188.0" />
+      <point x="-68.66666666666667" y="83.5" />
+    </edge>
+    <edge source="com.upc.Main" target="com.upc.Administracion" relationship="CREATE">
+      <point x="-36.75" y="-28.0" />
+      <point x="162.11197916666669" y="516.0" />
+      <point x="90.0" y="516.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.upc.Bus" target="com.upc.Asiento" relationship="TO_MANY">
+      <point x="-68.66666666666667" y="83.5" />
+      <point x="108.33333333333331" y="188.0" />
+      <point x="79.11197916666667" y="188.0" />
+      <point x="79.11197916666667" y="208.0" />
+      <point x="127.9427083333333" y="208.0" />
+      <point x="-49.33333333333336" y="-61.5" />
+    </edge>
+    <edge source="com.upc.Main" target="com.upc.Bus" relationship="DEPENDENCY">
+      <point x="36.75" y="-28.0" />
+      <point x="235.61197916666669" y="516.0" />
+      <point x="249.11197916666669" y="516.0" />
+      <point x="249.11197916666669" y="506.0" />
+      <point x="261.77604166666663" y="506.0" />
+      <point x="261.77604166666663" y="208.0" />
+      <point x="226.8359375" y="208.0" />
+      <point x="226.8359375" y="198.0" />
+      <point x="245.66666666666669" y="198.0" />
+      <point x="68.66666666666669" y="83.5" />
+    </edge>
+    <edge source="com.upc.Administracion" target="com.upc.Bus" relationship="CREATE">
+      <point x="0.0" y="-39.5" />
+      <point x="89.86197916666667" y="198.0" />
+      <point x="140.25" y="198.0" />
+      <point x="140.24999999999997" y="188.0" />
+      <point x="177.0" y="188.0" />
+      <point x="2.8421709430404007E-14" y="83.5" />
+    </edge>
+    <edge source="com.upc.Administracion" target="com.upc.Asiento" relationship="DEPENDENCY">
+      <point x="60.0" y="-39.5" />
+      <point x="150.0" y="379.0" />
+      <point x="177.27604166666666" y="379.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8450244698205547" showDependencies="true" x="140.0" y="296.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
